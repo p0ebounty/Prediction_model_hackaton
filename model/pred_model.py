@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 os.environ["LOKY_MAX_CPU_COUNT"] = "4"  # or your preferred core count
 
 def main():
+    import pandas as pd
     # Load the two Excel files
     meteo_path = "data/meteo_data.xlsx"
     pv_path = "data/PV_charac.xlsx"
@@ -127,10 +128,3 @@ def main():
     pass
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
