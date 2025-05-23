@@ -19,7 +19,7 @@ os.environ["LOKY_MAX_CPU_COUNT"] = "4"  # or your preferred core count
 
 def main():
     import pandas as pd
-    # Load the two Excel files
+    # Load the two Excel file
     meteo_path = "data/meteo_data.xlsx"
     pv_path = "data/PV_charac.xlsx"
 
