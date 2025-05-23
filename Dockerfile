@@ -16,4 +16,4 @@ COPY . .
 # The command to run your application
 # Render will set the PORT environment variable
 # We need to ensure uvicorn uses it and listens on 0.0.0.0
-CMD ["uvicorn", "app.run_all:app", "--host", "0.0.0.0", "--port", "$PORT"] 
+CMD ["python", "app/run_all.py"] 
